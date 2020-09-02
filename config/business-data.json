@@ -1,0 +1,39 @@
+{
+  "recordStatus": {
+    "draft": 1,
+    "pending": 2,
+    "success": 3,
+    "history": 4,
+    "fail": 5,
+    "closed": 6
+  },
+  "setOfTypeMediums": [1, 2, 3, 4, 5, 6],
+  "valueOfTypeMediums": {
+    "other": 1
+  },
+  "setOfTypeSources": [1, 2, 3, 4, 5],
+  "valueOftypeSources": {
+    "other": 1
+  },
+  "defaultReleaseDate": {
+    "year": 9999,
+    "month": 99,
+    "day": 99
+  },
+  "minimumScore": 1,
+  "maximumScore": 5,
+  "valueOfRecommendStatus": {
+    "yes": 1,
+    "no": 2
+  },
+  "valueOfReviewStatus": {
+    "wantToWatch": 1,
+    "haveWatched": 2
+  },
+  "setOfTypePersons": [1, 2, 3],
+  "valueOfTypePersons": {
+    "human": 1
+  },
+  "roleIdForNormalUser": 1,
+  "roleIdForEditor": 2
+}

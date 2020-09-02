@@ -1,0 +1,43 @@
+{
+  "name": "animebase",
+  "version": "1.0.0",
+  "description": "动画版豆瓣，一个动画资讯、评分、图一乐的专业社区网站",
+  "private": true,
+  "scripts": {
+    "test": "mocha",
+    "test:start": "cross-env NODE_ENV=production node server",
+    "dev": "node server",
+    "start": "cross-env NODE_ENV=production pm2 start pm2.conf.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nurob-l/animebase.git"
+  },
+  "author": "nurob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nurob-l/animebase/issues"
+  },
+  "homepage": "https://github.com/nurob-l/animebase#readme",
+  "dependencies": {
+    "@alicloud/pop-core": "^1.7.9",
+    "ali-oss": "^6.9.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-jwt": "^3.6.0",
+    "koa-router": "^7.4.0",
+    "mime": "^2.4.4",
+    "module-alias": "^2.2.2",
+    "moment": "^2.24.0",
+    "mysql2": "^2.1.0",
+    "mz": "^2.7.0",
+    "sequelize": "^6.3.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "mocha": "^6.2.2"
+  },
+  "_moduleAliases": {
+    "@": "."
+  }
+}
